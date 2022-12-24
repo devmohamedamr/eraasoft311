@@ -1,0 +1,16 @@
+{
+    "name": "eraasoft-311/mvc",
+    "description": "mvc",
+    "autoload": {
+        "psr-4": {
+            "Eraasoft311\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohamed amr",
+            "email": "dev.mohamedamr@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,19 @@
+{
+    "name": "eraasoft/mvctest",
+    "description": "mvc",
+    "type": "project",
+    "require": {
+        "respect/validation": "2.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eraasoft\\Mvctest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohamed amr",
+            "email": "dev.mohamedamr@gmail.com"
+        }
+    ]
+}

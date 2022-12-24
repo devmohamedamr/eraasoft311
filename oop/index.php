@@ -313,17 +313,201 @@ interface a{
 }
 
 
-interface b {
-    public function bmethod();
+// interface b {
+//     public function bmethod();
+// }
+
+
+// class test implements a,b{
+//     public function amethod(){
+//         echo "a method";
+//     }
+//     public function bmethod(){
+//         echo "b method";
+//     }
+// }
+
+
+
+
+
+// abstract class animal{
+//     abstract function eat();
+
+//     public function move(){
+//        echo  "animal move";
+//     }
+// }
+
+
+// class cat extends animal{
+//     public function eat(){
+//         echo "eat cat";
+//     }
+// }
+
+
+// class dog extends animal{
+//     public function eat(){
+//         echo "dog eat";
+//     }
+// }
+
+
+// $dog = new dog;
+// $dog->move();
+
+
+
+
+// trait
+// namespace
+// autoload
+
+
+
+
+
+// class user{
+//     public function __call($name, $arguments)
+//     {
+//         echo "method ".$name." not found <br>";
+//         print_r($arguments);
+//     }
+// }
+
+
+// $user = new user;
+
+// $user->go(1,2);
+
+
+
+
+
+class calc{
+    // public function add($x,$y){
+    //     echo $x+$y;
+    // }
+
+    // public function add($x,$y,$z){
+    //     echo $x+$y+$z;
+    // }
+
+    
+    // public function __call($name, $arguments)
+    // {
+    //     if($name == "add"){
+    //         if(count($arguments) == 2){
+    //             echo $arguments[0] + $arguments[1];
+    //         }elseif(count($arguments) == 3){
+    //             echo $arguments[0] + $arguments[1] + $arguments[2];
+    //         }
+    //     }
+    // }
+
+
+    // public function netsalary($salary,$tax){
+
+    // }
+
+    
+    // public function netsalary($salary,$tax,$comm){
+
+    // }
+
+        // public function __get($name)
+        // {
+
+        //     echo "this prop ".$name." not found";
+        // }
+
+        // public function __set($name, $value)
+        // {
+        //     echo "this prop ".$name." not found and value is ".$value ;
+        // }
+
 }
 
 
-class test implements a,b{
-    public function amethod(){
-        echo "a method";
-    }
-    public function bmethod(){
-        echo "b method";
-    }
-}
+// $calc = new calc;
+// $calc->name ="eslam";
+// echo $calc->name;
+// $calc->add();
+
+
+
+// trait soul{
+//     public function soulmethod(){
+//         echo "soul";
+//     }
+// }
+
+// trait body{
+//     public function bodymethod(){
+//         echo "body";
+//     }
+// }
+
+
+
+// class person{
+//     use body,soul;
+// }
+
+
+// $p = new person;
+// $p->soulmethod();
+
+
+
+// $callback = function($classname){
+//     include $classname.".php";
+// };
+
+// spl_autoload_register(function($classname){
+//     if(file_exists("controller/".$classname.".php")){
+//         include "controller/".$classname.".php";
+//     }elseif(file_exists("model/".$classname.".php")){
+//         include "model/".$classname.".php";
+//     }
+// });
+
+
+
+// $user = new user;
+// $user->usermethod();
+
+// $category = new category;
+// $category->categorymethod();
+
+// include "DB.php";
+
+// class DB{
+
+// }
+// use out\DB;
+
+// print_r(out\DB::table("category")->select()->all());
+
+
+
+// class user{
+
+// }
+
+
+
+
+// include "category.php";
+// include "user.php";
+
+// use y\user as usermodel;
+// $user = new usermodel;
+
+
+
+
+
+
 
